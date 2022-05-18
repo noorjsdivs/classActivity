@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .topButton {
+    @apply bg-gray-300 w-40 font-semibold text-center p-3 hover:bg-gray-400 transition duration-150 ease-in-out cursor-default;
+  }
+  .bottomButton {
+    @apply bg-commonBg w-40 text-sm text-white text-center p-3 hover:bg-commonHover transition duration-150 ease-in-out cursor-default;
+  }
+}
